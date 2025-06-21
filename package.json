@@ -1,10 +1,13 @@
 {
+  "homepage": "https://Sohomz.github.io/Password-Generator",
   "name": "05password_generator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
